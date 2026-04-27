@@ -30,3 +30,31 @@ m2=int(input("Digite sua segunda nota: "))
 m3= m1 + m2 
 m4= m3 / 2
 print("A soma das suas notas são {}, então sua média final é {}" .format(m3, m4))
+
+
+meters=float(input("Digite sua altura: "))
+calc= meters * 100
+print("Voce tem {} centimetros" .format(calc))
+
+tab=int(input("Digite um número: "))
+tab1= tab * 1 
+tab2= tab * 2
+tab3= tab * 3
+tab4= tab * 4
+tab5= tab * 5
+tab6= tab * 6
+tab7= tab * 7
+tab8= tab * 8
+tab9= tab * 9
+tab10= tab * 10
+print("Seu numero é {}, e a tabuada dele é: \n {} * 1 = {} \n {} * 2 = {} \n {} * 3 = {} \n {} * 4 = {} \n {} * 5 = {} \n {} * 6 = {} \n {} * 7 = {} \n {} * 8 = {} \n {} * 9 = {} \n {} * 10 = {}" .format(tab, tab, tab1, tab, tab2, tab, tab3, tab, tab4, tab, tab5, tab, tab6, tab, tab7, tab, tab8, tab, tab9, tab, tab10 ))
+
+dollar=float(input("Tem quanta grana aí?"))
+dollar1=dollar / 4.99
+print("Voce tem {:.2f} dolares" .format(dollar1))
+
+width=float(input("Digite a largura de sua parede:"))
+height=float(input("Agora a altura:"))
+m4= width * height
+total= m4 / 2
+print("Sua parede tem {} m². \n Voce precisara de {} litros para pinta-lá." .format(m4, total))
