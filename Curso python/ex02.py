@@ -1,0 +1,8 @@
+text=input("Digite alguma coisa ai: ")
+print("é numerico?",text.isalnum())
+print("é alfabetico?",text.isalpha())
+print("Contem espaços?",text.isspace())
+print("é um numero?",text.isnumeric())
+print("Está em maiúscula?",text.isupper())
+print("Está em minúscula?",text.islower())
+print("Está captalizada?",text.istitle())
