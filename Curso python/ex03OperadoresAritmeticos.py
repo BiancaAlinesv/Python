@@ -21,7 +21,7 @@ print("Seu numero -1 é igual a {}, e com +1 fica {}" .format(n2, n3))
 num1=int(input("Digita um numero: "))
 num2= num1 * 2
 num3= num1 * 3
-num4= num1 ** 1
+num4= num1 ** (1/2)
 print("Seu numero *2 é {}, e *3 é {}, porem sua raiz quadrada fica {}" .format(num2, num3, num4))
 
 #exercicio3
@@ -58,3 +58,13 @@ height=float(input("Agora a altura:"))
 m4= width * height
 total= m4 / 2
 print("Sua parede tem {} m². \n Voce precisara de {} litros para pinta-lá." .format(m4, total))
+
+price=float(input("Qual o valor do produto?")) 
+discount=float( price * (5 / 100))
+end= price - discount
+print("Seu produto custa {}, porém com o desconto de ficou {}" .format(price, end)) 
+
+payment=float(input("Qual o valor do se salário?"))
+bonus=float( payment * ( 15 / 100))
+calculate= payment + bonus
+print("Parabens!!!! Seu salário com o bonus fica {:.3f}" .format(calculate))
