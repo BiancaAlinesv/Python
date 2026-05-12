@@ -20,7 +20,7 @@ elif convert == "2":
 elif convert == "3":
     print("{} convertido para hexadecimal é {}" .format(number, hex(number)))
 else:
-    print("Opção invalida! Escolha entre 1, 2 ou 3!")
+    print("Opção invalida! Escolha entre 1, 2 ou 3")
     
     
 
@@ -96,6 +96,21 @@ elif imc < 40:
     print("Voce está obeso")
 elif imc > 40:
     print("Voce está com obesidade mórbida") 
+
+
+r1= float(input("Primeiro segmento:"))
+r2= float(input("Segundo segmento:"))
+r3= float(input("Terceiro segmento:"))
+if r1 < r2 + r3 and r2 < r1 +r3 and r3 < r1 + r2:
+    print("Os segmentos podem formar um triangulo!")
+    if r1 == r2 and r2 == r3:
+        print("O triangulo é equilatero!")
+    if r1 != r2 and r2 != r3:
+        print("O triangulo é escaleno!")
+    else:
+        print("O triangulo é isosceles!")
+else:
+    print("Os segmentos acima nao podem formar um triangulo!")
     
     
 #exercicio 9
